@@ -1,0 +1,17 @@
+[{
+		"category": "Test",
+		"name": "Buenos Aires - Mendoza",
+		"cost": "80",
+		"date": "17.02.2020",
+		"payer": "Paloma",
+		"shareWith": ["Bharath", "Paloma"]
+	},
+	{
+		"category": "Plane",
+		"name": "Buenos Aires - Mendoza",
+		"cost": "80",
+		"date": "17.02.2020",
+		"payer": "Paloma",
+		"shareWith": ["Bharath", "Paloma"]
+	}
+]
