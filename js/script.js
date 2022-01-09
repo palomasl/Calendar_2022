@@ -469,14 +469,115 @@ closeDoorDec = function() {
 
 
 //Expiration of coupon
+//JANUARY
 expiredJan = function() {
-  if (curmonth == 1)
+  if (curmonth != 1)
   document.getElementById("expJan").innerHTML = "Expired";
   document.getElementById("expJan").style.color = "red";
   document.getElementById("expJan").style.fontSize = "16px";
 }
 expiredJan();
-
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 2)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 3)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 4)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 5)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 6)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 7)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 8)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 9)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 10)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 11)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//JANUARY
+expiredJan = function() {
+  if (curmonth != 12)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
+//--End of JANUARY
+//--End of Expiration of coupons
 
 
 
