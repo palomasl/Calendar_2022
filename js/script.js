@@ -478,105 +478,105 @@ expiredJan = function() {
 }
 expiredJan();
 //--End of JANUARY
-//JANUARY
-expiredJan = function() {
+//FEBRUARY
+expiredFeb = function() {
   if (curmonth != 2)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expFeb").innerHTML = "Expired";
+  document.getElementById("expFeb").style.color = "red";
+  document.getElementById("expFeb").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredFeb();
+//--End of FEBRUARY
+//MARCH
+expiredMar = function() {
   if (curmonth != 3)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expMar").innerHTML = "Expired";
+  document.getElementById("expMar").style.color = "red";
+  document.getElementById("expMar").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredMar();
+//--End of MARCH
+//APRIL
+expiredApr = function() {
   if (curmonth != 4)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expApr").innerHTML = "Expired";
+  document.getElementById("expApr").style.color = "red";
+  document.getElementById("expApr").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredApr();
+//--End of APRIL
+//MAY
+expiredMay = function() {
   if (curmonth != 5)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expMay").innerHTML = "Expired";
+  document.getElementById("expMay").style.color = "red";
+  document.getElementById("expMay").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredMay();
+//--End of MAY
+//JUNE
+expiredJun = function() {
   if (curmonth != 6)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expJun").innerHTML = "Expired";
+  document.getElementById("expJun").style.color = "red";
+  document.getElementById("expJun").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredJun();
+//--End of JUNE
+//JULY
+expiredJul = function() {
   if (curmonth != 7)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expJul").innerHTML = "Expired";
+  document.getElementById("expJul").style.color = "red";
+  document.getElementById("expJul").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredJul();
+//--End of JULY
+//AUGUST
+expiredAug = function() {
   if (curmonth != 8)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expAug").innerHTML = "Expired";
+  document.getElementById("expAug").style.color = "red";
+  document.getElementById("expAug").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredAug();
+//--End of AUGUST
+//SEPTEMBER
+expiredSep = function() {
   if (curmonth != 9)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expSep").innerHTML = "Expired";
+  document.getElementById("expSep").style.color = "red";
+  document.getElementById("expSep").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredSep();
+//--End of SEPTEMBER
+//OCTOBER
+expiredOct = function() {
   if (curmonth != 10)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expOct").innerHTML = "Expired";
+  document.getElementById("expOct").style.color = "red";
+  document.getElementById("expOct").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredOct();
+//--End of OCTOBER
+//NOVEMBER
+expiredNov = function() {
   if (curmonth != 11)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expNov").innerHTML = "Expired";
+  document.getElementById("expNov").style.color = "red";
+  document.getElementById("expNov").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
-//JANUARY
-expiredJan = function() {
+expiredNov();
+//--End of NOVEMBER
+//DECEMBER
+expiredDec = function() {
   if (curmonth != 12)
-  document.getElementById("expJan").innerHTML = "Expired";
-  document.getElementById("expJan").style.color = "red";
-  document.getElementById("expJan").style.fontSize = "16px";
+  document.getElementById("expDec").innerHTML = "Expired";
+  document.getElementById("expDec").style.color = "red";
+  document.getElementById("expDec").style.fontSize = "16px";
 }
-expiredJan();
-//--End of JANUARY
+expiredDec();
+//--End of DECEMBER
 //--End of Expiration of coupons
 
 
