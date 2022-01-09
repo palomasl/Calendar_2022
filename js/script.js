@@ -282,7 +282,7 @@ closeDoorJan = function() {
 var doorFeb = document.getElementsByClassName("card_doorFeb")[0];
 
 openDoorFeb = function() {
-  if (curmonth >= 1){
+  if (curmonth >= 2){
   doorFeb.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
   doorFeb.style.boxShadow = "none";
   doorFeb.style.borderColor = "5px solid #363636";
@@ -296,179 +296,186 @@ closeDoorFeb = function() {
 }
 //--End of FEBRUARY
 //MARCH
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorMar = document.getElementsByClassName("card_doorMar")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorMar = function() {
+  if (curmonth >= 3){
+  doorMar.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorMar.style.boxShadow = "none";
+  doorMar.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorMar = function() {
+  doorMar.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorMar.style.boxShadow = "2px 2px 5px #fff";
+  doorMar.style.borderColor = "5px solid #fff";
 }
 //--End of MARCH
 //APRIL
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorApr = document.getElementsByClassName("card_doorApr")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorApr = function() {
+  if (curmonth >= 4){
+  doorApr.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorApr.style.boxShadow = "none";
+  doorApr.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorApr = function() {
+  doorApr.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorApr.style.boxShadow = "2px 2px 5px #fff";
+  doorApr.style.borderColor = "5px solid #fff";
 }
 //--End of APRIL
 //MAY
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorMay = document.getElementsByClassName("card_doorMay")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorMay = function() {
+  if (curmonth >= 5){
+  doorMay.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorMay.style.boxShadow = "none";
+  doorMay.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorMay = function() {
+  doorMay.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorMay.style.boxShadow = "2px 2px 5px #fff";
+  doorMay.style.borderColor = "5px solid #fff";
 }
 //--End of MAY
 //JUNE
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorJun = document.getElementsByClassName("card_doorJun")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorJun = function() {
+  if (curmonth >= 6){
+  doorJun.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJun.style.boxShadow = "none";
+  doorJun.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorJun = function() {
+  doorJun.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJun.style.boxShadow = "2px 2px 5px #fff";
+  doorJun.style.borderColor = "5px solid #fff";
 }
 //--End of JUNE
 //JULY
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorJul = document.getElementsByClassName("card_doorJul")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorJul = function() {
+  if (curmonth >= 7){
+  doorJul.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJul.style.boxShadow = "none";
+  doorJul.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorJul = function() {
+  doorJul.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJul.style.boxShadow = "2px 2px 5px #fff";
+  doorJul.style.borderColor = "5px solid #fff";
 }
 //--End of JULY
 //AUGUST
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorAug = document.getElementsByClassName("card_doorAug")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorAug = function() {
+  if (curmonth >= 8){
+  doorAug.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorAug.style.boxShadow = "none";
+  doorAug.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorAug = function() {
+  doorAug.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorAug.style.boxShadow = "2px 2px 5px #fff";
+  doorAug.style.borderColor = "5px solid #fff";
 }
 //--End of AUGUST
 //SEPTEMBER
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorSep = document.getElementsByClassName("card_doorSep")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorSep = function() {
+  if (curmonth >= 9){
+  doorSep.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorSep.style.boxShadow = "none";
+  doorSep.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorSep = function() {
+  doorSep.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorSep.style.boxShadow = "2px 2px 5px #fff";
+  doorSep.style.borderColor = "5px solid #fff";
 }
 //--End of SEPTEMBER
 //OCTOBER
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorOct = document.getElementsByClassName("card_doorOct")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorOct = function() {
+  if (curmonth >= 10){
+  doorOct.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorOct.style.boxShadow = "none";
+  doorOct.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorOct = function() {
+  doorOct.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorOct.style.boxShadow = "2px 2px 5px #fff";
+  doorOct.style.borderColor = "5px solid #fff";
 }
 //--End of OCTOBER
 //NOVEMBER
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorNov = document.getElementsByClassName("card_doorNov")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorNov = function() {
+  if (curmonth >= 11){
+  doorNov.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorNov.style.boxShadow = "none";
+  doorNov.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorNov = function() {
+  doorNov.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorNov.style.boxShadow = "2px 2px 5px #fff";
+  doorNov.style.borderColor = "5px solid #fff";
 }
 //--End of NOVEMBER
 //DECEMBER
-var doorJan = document.getElementsByClassName("card_doorJan")[0];
+var doorDec = document.getElementsByClassName("card_doorDec")[0];
 
-openDoorJan = function() {
-  if (curmonth >= 1){
-  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
-  doorJan.style.boxShadow = "none";
-  doorJan.style.borderColor = "5px solid #363636";
+openDoorDec = function() {
+  if (curmonth >= 12){
+  doorDec.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorDec.style.boxShadow = "none";
+  doorDec.style.borderColor = "5px solid #363636";
 }
 }
 
-closeDoorJan = function() {
-  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
-  doorJan.style.boxShadow = "2px 2px 5px #fff";
-  doorJan.style.borderColor = "5px solid #fff";
+closeDoorDec = function() {
+  doorDec.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorDec.style.boxShadow = "2px 2px 5px #fff";
+  doorDec.style.borderColor = "5px solid #fff";
 }
 //--End of DECEMBER
 //-- End of Open and close doors
 
 
-
+//Expiration of coupon
+expiredJan = function() {
+  if (curmonth == 1)
+  document.getElementById("expJan").innerHTML = "Expired";
+  document.getElementById("expJan").style.color = "red";
+  document.getElementById("expJan").style.fontSize = "16px";
+}
+expiredJan();
 
 
 
