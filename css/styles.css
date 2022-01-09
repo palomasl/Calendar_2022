@@ -28,7 +28,12 @@ button {
   height: 120px;
 }
 
-.card_door {
+.card_doorJan, .card_doorFeb,
+.card_doorMar, .card_doorApr,
+.card_doorMay, .card_doorJun,
+.card_doorJul, .card_doorAug,
+.card_doorSep, .card_doorOct,
+.card_doorNov, .card_doorDec {
   box-shadow: 2px 2px 5px #fff;
   border-color: 5px solid #fff;
   filter: brightness(90%);
@@ -50,16 +55,11 @@ button {
 
 /* Animation styles
 -------------------------------------------------- */
-.card_door:hover {
+/*.card_door:hover {
   transform: perspective(1000px) translateZ(0px) translateX(-70px) translateY(0px) rotateY(-100deg);
   box-shadow: none;
   border-color: 5px solid #363636;
 }
-
-.card_bg:click {
-  background-color: red;
-}
-
 
 /* Popup styles
 -------------------------------------------------- */

@@ -260,17 +260,215 @@ spanDec.onclick = function() {
 //--End of Popup Windows
 
 
-var door = document.getElementsByClassName("card_door");
+//Open and close doors
+//JANUARY
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
 
-openDoor.onmouseover = function() {
-  door.style.perspective = "1000px";
-  door.style.translateZ = "0px";
-  door.style.translateX = "-70px";
-  door.style.translateY = "0px";
-  door.style.rotateY = "-100deg";
-  door.style.boxShadow = "none";
-  door.style.borderColor = "5px solid #363636";
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
 }
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of JANUARY
+//FEBRUARY
+var doorFeb = document.getElementsByClassName("card_doorFeb")[0];
+
+openDoorFeb = function() {
+  if (curmonth >= 1){
+  doorFeb.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorFeb.style.boxShadow = "none";
+  doorFeb.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorFeb = function() {
+  doorFeb.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorFeb.style.boxShadow = "2px 2px 5px #fff";
+  doorFeb.style.borderColor = "5px solid #fff";
+}
+//--End of FEBRUARY
+//MARCH
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of MARCH
+//APRIL
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of APRIL
+//MAY
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of MAY
+//JUNE
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of JUNE
+//JULY
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of JULY
+//AUGUST
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of AUGUST
+//SEPTEMBER
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of SEPTEMBER
+//OCTOBER
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of OCTOBER
+//NOVEMBER
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of NOVEMBER
+//DECEMBER
+var doorJan = document.getElementsByClassName("card_doorJan")[0];
+
+openDoorJan = function() {
+  if (curmonth >= 1){
+  doorJan.style.transform = "perspective(1000px) translateX(-70px) rotateY(-100deg)"; 
+  doorJan.style.boxShadow = "none";
+  doorJan.style.borderColor = "5px solid #363636";
+}
+}
+
+closeDoorJan = function() {
+  doorJan.style.transform = "perspective(0px) translateX(0px) rotateY(0deg)";
+  doorJan.style.boxShadow = "2px 2px 5px #fff";
+  doorJan.style.borderColor = "5px solid #fff";
+}
+//--End of DECEMBER
+//-- End of Open and close doors
+
+
+
 
 
 
