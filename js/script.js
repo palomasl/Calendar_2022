@@ -471,115 +471,122 @@ closeDoorDec = function() {
 //Expiration of coupon
 //JANUARY
 expiredJan = function() {
-  if (curmonth != 1)
+  if (curmonth != 1) {
   document.getElementById("expJan").innerHTML = "Expired";
   document.getElementById("expJan").style.color = "red";
   document.getElementById("expJan").style.fontSize = "16px";
+}
 }
 expiredJan();
 //--End of JANUARY
 //FEBRUARY
 expiredFeb = function() {
-  if (curmonth != 2)
+  if (curmonth != 2) {
   document.getElementById("expFeb").innerHTML = "Expired";
   document.getElementById("expFeb").style.color = "red";
   document.getElementById("expFeb").style.fontSize = "16px";
+}
 }
 expiredFeb();
 //--End of FEBRUARY
 //MARCH
 expiredMar = function() {
-  if (curmonth != 3)
+  if (curmonth != 3) {
   document.getElementById("expMar").innerHTML = "Expired";
   document.getElementById("expMar").style.color = "red";
   document.getElementById("expMar").style.fontSize = "16px";
+}
 }
 expiredMar();
 //--End of MARCH
 //APRIL
 expiredApr = function() {
-  if (curmonth != 4)
+  if (curmonth != 4) {
   document.getElementById("expApr").innerHTML = "Expired";
   document.getElementById("expApr").style.color = "red";
   document.getElementById("expApr").style.fontSize = "16px";
+}
 }
 expiredApr();
 //--End of APRIL
 //MAY
 expiredMay = function() {
-  if (curmonth != 5)
+  if (curmonth != 5) {
   document.getElementById("expMay").innerHTML = "Expired";
   document.getElementById("expMay").style.color = "red";
   document.getElementById("expMay").style.fontSize = "16px";
+}
 }
 expiredMay();
 //--End of MAY
 //JUNE
 expiredJun = function() {
-  if (curmonth != 6)
+  if (curmonth != 6) {
   document.getElementById("expJun").innerHTML = "Expired";
   document.getElementById("expJun").style.color = "red";
   document.getElementById("expJun").style.fontSize = "16px";
+}
 }
 expiredJun();
 //--End of JUNE
 //JULY
 expiredJul = function() {
-  if (curmonth != 7)
+  if (curmonth != 7) {
   document.getElementById("expJul").innerHTML = "Expired";
   document.getElementById("expJul").style.color = "red";
   document.getElementById("expJul").style.fontSize = "16px";
+}
 }
 expiredJul();
 //--End of JULY
 //AUGUST
 expiredAug = function() {
-  if (curmonth != 8)
+  if (curmonth != 8) {
   document.getElementById("expAug").innerHTML = "Expired";
   document.getElementById("expAug").style.color = "red";
   document.getElementById("expAug").style.fontSize = "16px";
+}
 }
 expiredAug();
 //--End of AUGUST
 //SEPTEMBER
 expiredSep = function() {
-  if (curmonth != 9)
+  if (curmonth != 9) {
   document.getElementById("expSep").innerHTML = "Expired";
   document.getElementById("expSep").style.color = "red";
   document.getElementById("expSep").style.fontSize = "16px";
+}
 }
 expiredSep();
 //--End of SEPTEMBER
 //OCTOBER
 expiredOct = function() {
-  if (curmonth != 10)
+  if (curmonth != 10) {
   document.getElementById("expOct").innerHTML = "Expired";
   document.getElementById("expOct").style.color = "red";
   document.getElementById("expOct").style.fontSize = "16px";
+}
 }
 expiredOct();
 //--End of OCTOBER
 //NOVEMBER
 expiredNov = function() {
-  if (curmonth != 11)
+  if (curmonth != 11) {
   document.getElementById("expNov").innerHTML = "Expired";
   document.getElementById("expNov").style.color = "red";
   document.getElementById("expNov").style.fontSize = "16px";
+}
 }
 expiredNov();
 //--End of NOVEMBER
 //DECEMBER
 expiredDec = function() {
-  if (curmonth != 12)
+  if (curmonth != 12) {
   document.getElementById("expDec").innerHTML = "Expired";
   document.getElementById("expDec").style.color = "red";
   document.getElementById("expDec").style.fontSize = "16px";
 }
+}
 expiredDec();
 //--End of DECEMBER
 //--End of Expiration of coupons
-
-
-
-
-
