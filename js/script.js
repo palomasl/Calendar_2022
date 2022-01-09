@@ -1,18 +1,6 @@
-//Home Page
-document.addEventListener("DOMContentLoaded",
-function() {
-  /*
-    $ajaxUtils
-      .sendGetRequest("https://argentina-finance.herokuapp.com/expenses/total",
-        function (response) {
-        var total = response.amount;
-
-        document.querySelector("#total")
-            .innerHTML = total;
-        });
-        */
-  }
-);//--End of Home Page
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
 
 //Popup Windows
 //JANUARY
@@ -25,25 +13,15 @@ var btnJan = document.getElementById("openJan");
 // Get the <span> element that closes the popup
 var spanJan = (document.getElementsByClassName("closeJan"))[0];
 
-
 // When the user clicks on the button, open the popup
 btnJan.onclick = function() {
+  if (curmonth >= 1)
   popupJan.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanJan.onclick = function() {
   popupJan.style.display = "none";
-}
-
-console.log(window);
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  console.log("Fired on click on window");
-  console.log(event);
-  if (event.target == popupJan) {
-    popupJan.style.display = "none";
-  }
 }
 //--End of JANUARY
 //FEBRUARY
@@ -58,19 +36,13 @@ var spanFeb = document.getElementsByClassName("closeFeb")[0];
 
 // When the user clicks on the button, open the popup
 btnFeb.onclick = function() {
+  if (curmonth >= 2)
   popupFeb.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanFeb.onclick = function() {
   popupFeb.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupFeb) {
-    popupFeb.style.display = "none";
-  }
 }
 //--End of FEBRUARY
 //MARCH
@@ -84,20 +56,14 @@ var btnMar = document.getElementById("openMar");
 var spanMar = document.getElementsByClassName("closeMar")[0];
 
 // When the user clicks on the button, open the popup
-btnMar.onclick = function() {
+btnMar.onclick = function(){
+  if (curmonth >= 3)
   popupMar.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanMar.onclick = function() {
   popupMar.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupMar) {
-    popupMar.style.display = "none";
-  }
 }
 //--End of MARCH
 //APRIL
@@ -112,19 +78,13 @@ var spanApr = document.getElementsByClassName("closeApr")[0];
 
 // When the user clicks on the button, open the popup
 btnApr.onclick = function() {
+  if (curmonth >= 4)
   popupApr.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanApr.onclick = function() {
   popupApr.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupApr) {
-    popupApr.style.display = "none";
-  }
 }
 //--End of APRIL
 //MAY
@@ -139,19 +99,13 @@ var spanMay = document.getElementsByClassName("closeMay")[0];
 
 // When the user clicks on the button, open the popup
 btnMay.onclick = function() {
+  if (curmonth >= 5)
   popupMay.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanMay.onclick = function() {
   popupMay.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupMay) {
-    popupMay.style.display = "none";
-  }
 }
 //--End of MAY
 //JUNE
@@ -166,19 +120,13 @@ var spanJun = document.getElementsByClassName("closeJun")[0];
 
 // When the user clicks on the button, open the popup
 btnJun.onclick = function() {
+  if (curmonth >= 6)
   popupJun.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanJun.onclick = function() {
   popupJun.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupJun) {
-    popupJun.style.display = "none";
-  }
 }
 //--End of JUNE
 //JULY
@@ -193,19 +141,13 @@ var spanJul = document.getElementsByClassName("closeJul")[0];
 
 // When the user clicks on the button, open the popup
 btnJul.onclick = function() {
+  if (curmonth >= 7)
   popupJul.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanJul.onclick = function() {
   popupJul.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupJul) {
-    popupJul.style.display = "none";
-  }
 }
 //--End of JULY
 //AUGUST
@@ -220,19 +162,13 @@ var spanAug = document.getElementsByClassName("closeAug")[0];
 
 // When the user clicks on the button, open the popup
 btnAug.onclick = function() {
+  if (curmonth >= 8)
   popupAug.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanAug.onclick = function() {
   popupAug.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupAug) {
-    popupAug.style.display = "none";
-  }
 }
 //--End of AUGUST
 //SEPTEMBER
@@ -247,19 +183,13 @@ var spanSep = document.getElementsByClassName("closeSep")[0];
 
 // When the user clicks on the button, open the popup
 btnSep.onclick = function() {
+  if (curmonth >= 9)
   popupSep.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanSep.onclick = function() {
   popupSep.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupSep) {
-    popupSep.style.display = "none";
-  }
 }
 //--End of SEPTEMBER
 //OCTOBER
@@ -274,19 +204,13 @@ var spanOct = document.getElementsByClassName("closeOct")[0];
 
 // When the user clicks on the button, open the popup
 btnOct.onclick = function() {
+  if (curmonth >= 10)
   popupOct.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanOct.onclick = function() {
   popupOct.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupOct) {
-    popupOct.style.display = "none";
-  }
 }
 //--End of OCTOBER
 //NOVEMBER
@@ -301,19 +225,13 @@ var spanNov = document.getElementsByClassName("closeNov")[0];
 
 // When the user clicks on the button, open the popup
 btnNov.onclick = function() {
+  if (curmonth >= 11)
   popupNov.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the popup
 spanNov.onclick = function() {
   popupNov.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupNov) {
-    popupNov.style.display = "none";
-  }
 }
 //--End of NOVEMBER
 //DECEMBER
@@ -328,6 +246,7 @@ var spanDec = document.getElementsByClassName("closeDec")[0];
 
 // When the user clicks on the button, open the popup
 btnDec.onclick = function() {
+  if (curmonth >= 12)
   popupDec.style.display = "block";
 }
 
@@ -335,12 +254,19 @@ btnDec.onclick = function() {
 spanDec.onclick = function() {
   popupDec.style.display = "none";
 }
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popupDec) {
-    popupDec.style.display = "none";
-  }
-}
 //--End of DECEMBER
 //--End of Popup Windows
+
+//Activate door on current month
+var curdate = new Date();
+var curmonth = curdate.getMonth()+1;
+
+console.log(curmonth);
+
+
+  function activateDoor() {
+   document.getElementById('openJan').style.backgroundImage = "url(../images/indian-feast.jpg)";
+  }
+
+  if(curmonth == 1)
+  activateDoor();
