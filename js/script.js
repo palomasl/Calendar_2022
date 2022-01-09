@@ -3,6 +3,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 //Popup Windows
+var curdate = new Date();
+var curmonth = curdate.getMonth()+1;
 //JANUARY
 // Get the popup
 var popupJan = document.getElementById("PopUpJan");
@@ -257,16 +259,8 @@ spanDec.onclick = function() {
 //--End of DECEMBER
 //--End of Popup Windows
 
-//Activate door on current month
-var curdate = new Date();
-var curmonth = curdate.getMonth()+1;
-
-console.log(curmonth);
 
 
-  function activateDoor() {
-   document.getElementById('openJan').style.backgroundImage = "url(../images/indian-feast.jpg)";
-  }
 
-  if(curmonth == 1)
-  activateDoor();
+
+
