@@ -260,6 +260,19 @@ spanDec.onclick = function() {
 //--End of Popup Windows
 
 
+var door = document.getElementsByClassName("card_door");
+
+openDoor.onmouseover = function() {
+  door.style.perspective = "1000px";
+  door.style.translateZ = "0px";
+  door.style.translateX = "-70px";
+  door.style.translateY = "0px";
+  door.style.rotateY = "-100deg";
+  door.style.boxShadow = "none";
+  door.style.borderColor = "5px solid #363636";
+}
+
+
 
 
 
