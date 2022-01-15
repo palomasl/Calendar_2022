@@ -593,12 +593,19 @@ expiredDec();
 
 //Introduce messages
 var insertMessage = function(months){
-  console.log(months)
   var message = months.months[0].message
-  console.log(message)
-
-}
-
+  document.getElementById("message").innerHTML = message;
+  
+  //var message = "";
+  //for (var i = 0; i < months.months.length; i++){
+    //"<div class="popup-content">" + 
+    //"<span class="closeJan">&times;</span>" +
+    //"<p id=message>" + months.months[i].message +"</p>" +
+    //"<p style="font-style: italic; font-size: 8px" id="expJan">Expires on the 31st of January</p>" +
+    //"</div>";
+  //}
+  //$(".test").html = message;
+  //}
 
 
 
