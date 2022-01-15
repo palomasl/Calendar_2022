@@ -590,3 +590,28 @@ expiredDec = function() {
 expiredDec();
 //--End of DECEMBER
 //--End of Expiration of coupons
+
+//Introduce messages
+var insertMessage = function(months){
+  console.log(months)
+  var message = months.months[0].message
+  console.log(message)
+
+}
+
+
+
+
+
+
+//--End Introduce messages
+
+//Load JSON
+$.ajax({
+    async: false,
+    url: "data/months.json",
+    success: function(months) {
+        insertMessage(months);
+    }
+});
+//--End Load JSON
