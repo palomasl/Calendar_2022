@@ -1,0 +1,63 @@
+{
+	"months": [{
+			"name": "January",
+			"message": "Valid for a feast at Indian Aroma",
+			"image": "indian-feast.jpg"
+		},
+		{
+			"name": "February",
+			"message": "Valid for a 15 minute massage",
+			"image": "massage.jpg"
+		},
+		{
+			"name": "March",
+			"message": "Valid for a home baked cake",
+			"image": "cake.jpg"
+		},
+		{
+			"name": "April",
+			"message": "Valid for any movie you chose at the cinema",
+			"image": "cinema.jpg"
+		},
+		{
+			"name": "May",
+			"message": "Valid for a home-made Indian breakfast",
+			"image": "breakfast.jpg"
+		},
+		{
+			"name": "June",
+			"message": "Valid for a visit to Puy du Fou",
+			"image": "toledo.jpg"
+		},
+		{
+			"name": "July",
+			"message": "Valid for a Yes Day! A day in which I have to say Yes to everything you say",
+			"image": "yes.jpg"
+		},
+		{
+			"name": "August",
+			"message": "Valid for a sexy role play of your choice",
+			"image": "wonderwoman.jpg"
+		},
+		{
+			"name": "September",
+			"message": "Birthday month special -> Valid for a write-in coupon",
+			"image": "coupon.jpg"
+		},
+		{
+			"name": "October",
+			"message": "Valid for home cooked meal",
+			"image": "meal.jpg"
+		},
+		{
+			"name": "November",
+			"message": "Valid for a board-game marathon organised by me",
+			"image": "boardgames.jpg"
+		},
+		{
+			"name": "December",
+			"message": "Valid for a bed-time story",
+			"image": "night.jpg"
+		}
+	]
+}
