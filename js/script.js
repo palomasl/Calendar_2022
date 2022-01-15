@@ -595,7 +595,7 @@ expiredDec();
 var insertMessage = function(months){
   var message = months.months[0].message
   document.getElementById("message").innerHTML = message;
-  
+  }
   //var message = "";
   //for (var i = 0; i < months.months.length; i++){
     //"<div class="popup-content">" + 
@@ -605,7 +605,7 @@ var insertMessage = function(months){
     //"</div>";
   //}
   //$(".test").html = message;
-  //}
+  //
 
 
 
